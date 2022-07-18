@@ -1,0 +1,7 @@
+applications:
+  - name: github-self-invite-bot
+    memory: 1024m
+    instances: 1
+    disk_quota: 128M
+    buildpacks:
+      - nodejs_buildpack

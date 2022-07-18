@@ -1,0 +1,14 @@
+{
+  "name": "github-self-invite-bot",
+  "version": "1.0.0",
+  "description": "CF app to embed CAI bot to help self-invite user to private repo.",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "request": "^2.83.0"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
